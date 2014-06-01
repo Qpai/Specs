@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author           = { "Qpai" => "qingliangpai@126.com" }
   s.source           = { :git => "https://github.com/Qpai/QPChatNoUse.git", :tag => s.version.to_s }
 
-  spec.subspec 'QPChat' do |chat|
+  s.subspec 'QPChat' do |chat|
     chat.source_files = 'QPChatNoUse/QPChatNoUse/QPChat/*.{h,m}'
     chat.requires_arc = 'QPChatNoUse/QPChatNoUse/resources/*.{png}'
   end
